@@ -1,0 +1,66 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    border-right: 1px solid black;
+    justify-content: space-between;
+    padding: 0 3rem 0rem 3rem;
+    
+}
+
+.navbar>:nth-child(1) {
+    height: 33%;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+
+.info> div{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    transition: linear 0.1s;
+}
+
+.info >:nth-child(1){
+    width: fit-content;
+}
+
+.info > div:hover {
+    background-color: rgb(199, 199, 199);
+    cursor: pointer;
+}
+
+.no-image{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    width: 3.7rem;
+    
+    background-color: rgb(199, 199, 199);
+    text-transform: uppercase;
+}
+
+.user-data {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.user-data>:nth-child(2)>:nth-child(1) {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.user-data>:nth-child(2)>:nth-child(2) {
+    font-size: 1.2rem;
+    color: rgb(4, 4, 136);
+    font-weight: 500;
+}

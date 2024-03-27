@@ -1,0 +1,6 @@
+body,::placeholder,button,input {
+    margin: 0;
+    padding: 0rem;
+    display: flex;
+    font-size: 1.5rem;
+}
